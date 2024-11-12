@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timos Seite</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 500px;
+            height: 500px;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        .red-green {
+            background-color: #FF0000; /* Rot */
+            height: 100%; /* Füllt die Höhe der Zelle */
+        }
+        .blue {
+            background-color: #0000FF; /* Blau */
+            height: 100%;
+        }
+        .yellow {
+            background-color: #FFFF00; /* Gelb */
+            height: 100%;
+        }
+        .magenta {
+            background-color: #FF00FF; /* Magenta */
+            height: 100%;
+        }
+        .middle {
+            background-color: #FFFFFF; /* Weiß für das mittlere Feld */
+            height: 100%; /* Füllt die Höhe der Zelle */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Mein Name ist Timo</h1>
+        <table>
+            <tr>
+                <td class="red-green" colspan="2"></td> <!-- Rot und Grün zusammen -->
+            </tr>
+            <tr>
+                <td class="middle"></td> <!-- Mittleres Feld -->
+                <td class="blue"></td> <!-- Blau -->
+            </tr>
+            <tr>
+                <td class="yellow"></td> <!-- Gelb -->
+                <td class="magenta"></td> <!-- Magenta -->
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
