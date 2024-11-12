@@ -17,7 +17,7 @@
 
     <?php
     $anlagen = $_REQUEST['anlagen'];
-    $zinssatz = $_REQUEST['zisnsatz'];
+    $zinssatz = $_REQUEST['zinssatz'];
     $dauer = $_REQUEST['dauer'];
 
     // Berechnung und Ausgaben
