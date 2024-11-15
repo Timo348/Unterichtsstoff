@@ -7,6 +7,8 @@
 <style>
     * {
         font-family: Helvetica;
+        box-sizing: border-box;
+        border: solid, 1px, black;
     }
     div {
         padding: 15px;
@@ -32,13 +34,15 @@
         margin: 1px;
         padding: 14px, 16px;
         display: block;
-        background-color: lightgray;
+        background-color: darkgray;
+        color: black;
     }
     nav li {
         display: inline-block;
     }
     .aktiv {
-        background-color: gray;
+        background-color: #1a1a1a;
+        color: white;
     }
     nav {
         background-color: gray;
@@ -52,8 +56,8 @@
         <ul>
             <li><a href="tabelle.html">Tabelle</a></li>
             <li><a href="stundenplan.html">Stundenplan</a></li>
-            <li class="aktiv"><a href="https://Google.de">Google</a></li>
-            <li><a href="Divs.html">Home</a></li>
+            <li><a href="https://Google.de">Google</a></li>
+            <li><a href="Divs.html" class="aktiv">Home</a></li>
         </ul>
     </nav>
     <div id="div1">
