@@ -98,9 +98,13 @@ for($i = 0; $i < count($notenliste); $i++) {
 echo"<br>";
 echo"die schlechteste note: $schlechteste <br>";
 
-$schlechteste = max($notenliste);
-echo"Schlechteste Note: $schlechteste";
 
+// Mit Funktionen 
+$schlechteste = max($notenliste);
+echo"Schlechteste Note: $schlechteste <br>";
+
+$beste = min($notenliste);
+echo"Beste Note: $beste";
 ?>
 </body>     
 </html>
