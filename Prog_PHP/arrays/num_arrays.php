@@ -92,10 +92,11 @@ $summe = $summe/count($notenliste);
 $schlechteste = 1.0;
 for($i = 0; $i < count($notenliste); $i++) {
     if ($notenliste[$i] > $schlechteste) {
-        $schlechteste =
+        $schlechteste = $notenliste[$i];
     }
 }
-
+echo"<br>";
+echo"die schlechteste note: $schlechteste";
 
 ?>
 </body>
