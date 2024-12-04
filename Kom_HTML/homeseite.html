@@ -8,10 +8,25 @@
     * {
         font-family: helevtica;
     }
+    @media screen and (max-width: 500px) {
+            nav ul {
+                flex-direction: column; /* Vertikale Liste */
+                background-color: pink; /* Hintergrund der UL ändern */
+                padding: 10px; /* Abstand vergrößern */
+            }
+
+            nav ul li {
+                margin: 10px 0; /* Mehr Platz zwischen den Listenelementen */
+            }
+
+            nav ul li a {
+                color: white; /* Schriftfarbe ändern */
+            }
+        }
 </style>
 <body>
     <nav>
-        <ul>
+        <ul>    
             <li><a href="tabelle.html">Tabelle</a></li>
             <li><a href="stundenplan.html">Stundenplan</a></li>
             <li><a href="https://Google.de">Google</a></li>
