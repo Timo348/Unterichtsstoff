@@ -13,7 +13,7 @@
     div {
         width: 100px;
         height: 100px;
-        border-radius: 80%;
+        border-radius: 100%;
 
         font-size: 24px;
         text-align: center;
@@ -33,7 +33,6 @@ for ($i=1; $i<=6; $i++){
         $zahl = rand(1,49);
         echo"<div>$zahl</div>";
     }
-
     ?>
 </body>
 </html>
