@@ -12,8 +12,8 @@
         echo "Die zahl ist $x <br>";
     }
 
-// Schreibe ein Programm, 
-// das die Zahlen von 1 bis 10 ausgibt, aber die Schleife soll abbrechen, sobald die Zahl 7 erreicht wird.
+// Schreibe ein Programm, das die Zahlen von 1 bis 10 ausgibt,
+//  aber die Schleife soll abbrechen, sobald die Zahl 7 erreicht wird.
 
 while ($i > 10) {
     $i += 1;
