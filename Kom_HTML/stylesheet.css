@@ -1,0 +1,115 @@
+div {
+    padding: 15px;
+}
+#div1{
+    background-color: aqua;
+}
+#div2{
+    background-color: bisque;
+}
+#div3{
+    background-color: plum;
+}
+header {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+    font-size: 30px;
+}
+nav a {
+    text-decoration: none;
+    margin: 1px;
+    padding: 14px, 16px;
+    display: block;
+    background-color: rgb(45, 40, 40);
+    color: white;
+    font-size: 25px;
+}
+nav li {
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.aktiv {
+    background-color: #424242;
+    color: white;
+}
+nav {
+    background-color: #424242;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+h1 {
+    color: greenyellow;
+    text-align: center;
+}
+ul {
+    list-style-type: square;
+}
+
+#ueber_green {
+    color: green;
+    text-align: center;
+}
+
+.rot {
+    color: red;
+}
+li a {
+    color: white;
+}
+th {
+    border: 1.5px solid;
+    background-color: red;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+td {
+    border: 1px solid;
+    background-color: orange;
+    text-align: center;
+}
+.leerstunde {
+    background-color: pink;
+}
+.stunden {
+    background-color: #44fffc;
+    color: black;
+}
+
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    border: solid, 1px, black;
+}
+table {
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.cyan {
+    background-color: cyan;
+    width: 166px;
+}
+.gelb {
+    background-color: yellow;
+}
+.rot {
+    background-color: red;
+}
+.gruen {
+    background-color: lime;
+}
+.magenta {
+    background-color: magenta;
+    width: 166px;
+}
