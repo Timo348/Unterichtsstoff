@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Dicer</title>
+    <title>eDicer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<form action="edicer.php">
-        <input type="number" min="1" name="anzahl_wuerfel" placeholder="Anzahl Würfe"><br>
-        <button type="submit">GAMBLE</button>
-    </form>
-    <div class="board">
-    <?php 
-    $augen_array = [];
+    <h1>E DICER</h1>
+    <a href="">Würfeln</a>
+    <div>
+        <?php 
+        include 'functions.php';
 
-    $augen = rand(1,6);
-    $anzahl = $_REQUEST['anzahl_wuerfel'];
-    
-    // Array füllen
-    for ($i=1; $i<=$anzahl; $i++){
-        $augen = rand(1,6);
-        $augen_array[] = $augen;
-        //echo "<img width = '10%' src = '/bilder/$augen.png' alt='$augen Augen'>\n";
-    }
-    // Array ausgeben
-    /*echo "<pre>";
-    print_r($augen_array);
-    echo"</pre>";
-    */
-    sort($augen_array);
-    for ($i=0; $i<$anzahl; $i++){
-        echo "<img width = '10%' src = '$augen_array[$i].png' alt='$augen_array[$i] Augen'>\n";
-    }
-    $summe = array_sum($augen_array);
-    echo "<div class='ausgabe'>Die Summe der Augenzahlen beträgt $summe</div>";
-    echo "</div>"
-    ?>
+        $augen_array = [];
+        $anzahl = 5;
+
+        for ($i = 1; $i <= $anzahl; $i++) {
+            $augen = rand(1, 6);
+            $augen_array[] = $augen;
+        }
+
+        sort($augen_array);
+
+        for ($i = 0; $i < $anzahl; $i++) {
+            echo "<img src='{$augen_array[$i]}.png' alt='{$augen_array[$i]} Augen'>\n";
+        }
+
+        $summe = array_sum($augen_array);
+        echo "<h2>Die Summe der Augenzahlen beträgt $summe</h2>";
+
+        echo auswerten($augen_array);
+        ?>
+    </div>
 </body>
 </html>
