@@ -4,7 +4,8 @@
 **Person 1:**  
 „Hallo zusammen, wir sind [Namen der drei Personen], und wir freuen uns, Ihnen heute unsere Idee vorzustellen. Doch bevor wir loslegen, möchten wir kurz über unseren Weg zur Idee sprechen. Es war gar nicht so leicht, eine Lösung zu finden, die sowohl innovativ als auch gesellschaftlich relevant ist. Viele Stunden und Überlegungen später kamen wir auf ein Problem, das uns alle beschäftigen sollte: Sicherheit.  
 
-Die Idee: Eine Airbag-Jacke. Sie denken jetzt vielleicht: Airbag und Kleidung – wie passt das zusammen? Ganz einfach: Unsere Jacke soll Menschen vor Verletzungen schützen, egal ob sie beim Wintersport stürzen, beim Fahrradfahren eine unglückliche Landung haben oder – was leider häufiger vorkommt – ältere Menschen beim Stolpern schwer stürzen. Mit unserer Jacke möchten wir dazu beitragen, dass Verletzungen durch Stürze der Vergangenheit angehören.“  
+**Person 2:**
+Eine Airbag-Jacke. Sie denken jetzt vielleicht: Airbag und Kleidung – wie passt das zusammen? Ganz einfach: Unsere Jacke soll Menschen vor Verletzungen schützen, egal ob sie beim Wintersport stürzen, beim Fahrradfahren eine unglückliche Landung haben oder – was leider häufiger vorkommt – ältere Menschen beim Stolpern schwer stürzen. Mit unserer Jacke möchten wir dazu beitragen, dass Verletzungen durch Stürze der Vergangenheit angehören.“  
 
 
 
@@ -37,7 +38,7 @@ Unser Ziel ist es, nicht nur Sicherheit, sondern auch Innovation und Komfort zu 
 
 
 
-### **Folie 5: (Die größte Folie)**  
+### **Folie 5:**  
 **Person 1:**  
 „Zusammengefasst: Unsere Airbag-Jacke soll ein echter Gamechanger in puncto Sicherheit werden. Mit innovativer Technik, einem durchdachten Design und spezifischen Modellen für verschiedene Zielgruppen sind wir überzeugt, dass wir den Markt revolutionieren können.  
 
