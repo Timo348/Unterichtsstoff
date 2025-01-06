@@ -1,6 +1,6 @@
 ### **Folie 2: Die Idee**  
 **Person 1:**  
-„Hallo zusammen, wir sind [Namen der drei Personen], und wir freuen uns, Ihnen heute unsere Idee vorzustellen. Doch bevor wir loslegen, möchten wir kurz über unseren Weg zur Idee sprechen. Es war gar nicht so leicht, eine Lösung zu finden, die sowohl innovativ als auch gesellschaftlich relevant ist. Viele Stunden und Überlegungen später kamen wir auf ein Problem, das uns alle beschäftigen sollte: Sicherheit.  
+„Hallo zusammen, wir sind [Namen der drei Personen], und wir freuen uns, Ihnen heute unsere Idee vorzustellen. Doch bevor wir loslegen, möchten wir kurz über unseren Weg zur Idee sprechen. Es war gar nicht so leicht, eine Lösung zu finden, die sowohl innovativ als auch gesellschaftlich relevant ist. VieleÜberlegungen später kamen wir auf ein Problem, das uns alle beschäftigen sollte: Sicherheit.  
 
 Sicherheit ist ein Thema, das uns alle betrifft – egal in welchem Alter oder in welchem Lebensbereich. Wir wollten eine Lösung finden, die Menschen wirklich schützt.“  
 
