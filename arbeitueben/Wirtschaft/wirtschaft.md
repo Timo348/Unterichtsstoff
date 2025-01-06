@@ -1,4 +1,4 @@
----
+
 
 ### **Folie 2: Die Idee**  
 **Person 1:**  
