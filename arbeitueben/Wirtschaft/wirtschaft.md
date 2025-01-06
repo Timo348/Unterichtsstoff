@@ -1,16 +1,12 @@
 
 
-Hier ist ein Textentwurf für euren Pitch, der auf einer Höhle-der-Löwen-Präsentation basiert und eure Struktur berücksichtigt. Jede Person übernimmt einen klar definierten Abschnitt. Der Text ist so konzipiert, dass er die 7 Minuten optimal abdeckt.  
-
----
-
 ### **Folie 2: Die Idee**  
 **Person 1:**  
 „Hallo zusammen, wir sind [Namen der drei Personen], und wir freuen uns, Ihnen heute unsere Idee vorzustellen. Doch bevor wir loslegen, möchten wir kurz über unseren Weg zur Idee sprechen. Es war gar nicht so leicht, eine Lösung zu finden, die sowohl innovativ als auch gesellschaftlich relevant ist. Viele Stunden und Überlegungen später kamen wir auf ein Problem, das uns alle beschäftigen sollte: Sicherheit.  
 
 Die Idee: Eine Airbag-Jacke. Sie denken jetzt vielleicht: Airbag und Kleidung – wie passt das zusammen? Ganz einfach: Unsere Jacke soll Menschen vor Verletzungen schützen, egal ob sie beim Wintersport stürzen, beim Fahrradfahren eine unglückliche Landung haben oder – was leider häufiger vorkommt – ältere Menschen beim Stolpern schwer stürzen. Mit unserer Jacke möchten wir dazu beitragen, dass Verletzungen durch Stürze der Vergangenheit angehören.“  
 
----
+
 
 ### **Folie 3: Zielgruppe**  
 **Person 2:**  
@@ -22,7 +18,7 @@ Zweitens: **Sportler.** Egal ob Snowboarder, Mountainbiker oder Wanderer – die
 
 Wir sind überzeugt, dass unsere Zielgruppen nicht nur von der Funktionalität, sondern auch vom Design begeistert sein werden. Schließlich soll unsere Jacke nicht nur schützen, sondern auch modern und alltagstauglich aussehen.“  
 
----
+
 
 ### **Folie 4: Unsere Vision**  
 **Person 3:**  
@@ -39,7 +35,7 @@ Wir sind überzeugt, dass unsere Zielgruppen nicht nur von der Funktionalität, 
 
 Unser Ziel ist es, nicht nur Sicherheit, sondern auch Innovation und Komfort zu liefern – für jeden und jede Situation.“  
 
----
+
 
 ### **Folie 5: (Die größte Folie)**  
 **Person 1:**  
@@ -47,11 +43,11 @@ Unser Ziel ist es, nicht nur Sicherheit, sondern auch Innovation und Komfort zu 
 
 Wir wollen Menschen schützen – sei es im Alltag oder bei sportlichen Abenteuern. Mit unserer Airbag-Jacke investieren Sie nicht nur in ein Produkt, sondern in ein Konzept, das Leben retten kann.“
 
----
+
 
 ### **Letzte Folie (optional, von euch selbst gestaltet)**  
 Hier könnt ihr eure spezifischen Verkaufsargumente, Preise oder einen Call-to-Action einbauen.
 
----
+
 
 Ihr könnt diesen Text natürlich weiter anpassen, um eure Persönlichkeit und euren Stil einzubringen. Viel Erfolg bei eurer Präsentation! 😊
