@@ -6,7 +6,7 @@ Hier ist der überarbeitete Text mit den gewünschten Ergänzungen:
 **Person 1:**  
 „Hallo zusammen, wir sind [Namen der drei Personen], und wir freuen uns, Ihnen heute unsere Idee vorzustellen. Doch bevor wir loslegen, möchten wir kurz über unseren Weg zur Idee sprechen. Es war gar nicht so leicht, eine Lösung zu finden, die sowohl innovativ als auch gesellschaftlich relevant ist. Viele Stunden und Überlegungen später kamen wir auf ein Problem, das uns alle beschäftigen sollte: Sicherheit.  
 
-**Person 2:**  
+**Person 3:**  
 Eine Airbag-Jacke. Sie denken jetzt vielleicht: Airbag und Kleidung – wie passt das zusammen? Ganz einfach: Unsere Jacke soll Menschen vor Verletzungen schützen, egal ob sie beim Wintersport stürzen, beim Fahrradfahren eine unglückliche Landung haben oder – was leider häufiger vorkommt – ältere Menschen beim Stolpern schwer stürzen. Mit unserer Jacke möchten wir dazu beitragen, dass Verletzungen durch Stürze der Vergangenheit angehören.“  
 
 ---
