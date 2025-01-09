@@ -39,7 +39,7 @@ Wir sind überzeugt, dass unsere Zielgruppen nicht nur von der Funktionalität, 
 Unser Ziel ist es, nicht nur Sicherheit, sondern auch Innovation und Komfort zu liefern – für jeden und jede Situation.“  
 
 ---
-DANIEL
+# DANIEL
 
 UNSERPLAN 
 ---
