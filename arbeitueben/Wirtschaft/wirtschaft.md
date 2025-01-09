@@ -39,8 +39,12 @@ Wir sind überzeugt, dass unsere Zielgruppen nicht nur von der Funktionalität, 
 Unser Ziel ist es, nicht nur Sicherheit, sondern auch Innovation und Komfort zu liefern – für jeden und jede Situation.“  
 
 ---
+DANIEL
 
-### **Folie 5:**  
+UNSERPLAN 
+---
+
+### **Folie 6:**  
 **Person 1:**  
 „Zusammengefasst: Unsere Airbag-Jacke soll ein echter Gamechanger in puncto Sicherheit werden. Mit innovativer Technik, einem durchdachten Design und spezifischen Modellen für verschiedene Zielgruppen sind wir überzeugt, dass wir den Markt revolutionieren können.  
 
