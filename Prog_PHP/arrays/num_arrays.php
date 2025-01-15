@@ -8,7 +8,6 @@
 <body>
     <h1>Arrays in PHP</h1>
     <h2>Numerische Arrays</h2>
-
 <?php
 //Datei: num_arrays.php
 
