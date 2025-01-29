@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular Seite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="name">Name:</label> <br>
+    <input type="text" id="name" placeholder="Enter your name"> <br>
+
+    <label for="lastname">Nachname:</label> <br>
+    <input type="text" id="lastname" placeholder="Enter your last name"> <br>
+
+    <label>Geschlecht:</label> <br>
+    <input type="radio" id="male" name="gender" value="Male"> Male<br>
+    <input type="radio" id="female" name="gender" value="Female"> Female<br>
+    <input type="radio" id="diverse" name="gender" value="Diverse"> Walmart bag<br>
+
+    <label>Fächer:</label> <br>
+    <input type="checkbox" id="kom" value="KOM"> KOM<br>
+    <input type="checkbox" id="prog" value="PROG"> PROG<br>
+    <input type="checkbox" id="inf" value="INF"> INF<br>
+
+    <label for="password">Passwort:</label> <br>
+    <input type="password" id="password" placeholder="Enter your password"> <br>
+
+    <button onclick="updateTable()">Absenden</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Nachname</th>
+                <th>Geschlecht</th>
+                <th>Fächer</th>
+                <th>Passwort</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <script>
+        function updateTable() {
+            const name = document.getElementById('name').value;
+            const lastname = document.getElementById('lastname').value;
+            const gender = document.querySelector('input[name="gender"]:checked')?.value || '';
+            const subjects = []; // Böse man muss erst leer erstellen sonst nix gehen!!
+
+            if (document.getElementById('kom').checked) subjects.push('KOM');
+            if (document.getElementById('prog').checked) subjects.push('PROG');
+            if (document.getElementById('inf').checked) subjects.push('INF');
+
+            const password = document.getElementById('password').value;
+
+            const tableBody = document.getElementById('table-body');
+            const row = document.createElement('tr');
+
+            row.innerHTML = `
+                <td>${name}</td>
+                <td>${lastname}</td>
+                <td>${gender}</td>
+                <td>${subjects.join(', ')}</td>
+                <td>${password}</td>
+            `;
+
+            tableBody.appendChild(row);
+        }
+    </script>
+
+</body>
+</html>
