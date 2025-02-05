@@ -8,7 +8,6 @@
 <body>
     <h1>Arrays in PHP</h1>
     <h2>Numerische Arrays</h2>
-
 <?php
 //Datei: num_arrays.php
 
@@ -32,7 +31,7 @@ $array = [1, 2, 3];
 //echo"<br>";
 
 // Einzelne Stellen eines Arrays ausgeben:
-echo "Note: $notenliste[3]"; // Gibt Array stelle [4] aus
+echo "Note: $notenliste[3]"; // Gibt Array stelle [3] aus
 
 // Array zum debuggen mit print_r ausgeben:
 echo "<pre>";
