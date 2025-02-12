@@ -1,27 +1,38 @@
 <?php
-// Funktion sucheMinBelegung() => Return Index des Passendes Zimmers
+// Uml Schreibweise
+// function NameFunction($übergabeparameter): rückgabewert { function }
 
-$minIndex = 0;
-$zimmerliste = [1,2,3,4,5];
+$a = $_REQUEST['Zahl1'];
+$b = $_REQUEST['Zahl2'];
+$auswahl = $_REQUEST['auswahl'];
 
-
-function sucheMinBelegung(bool $weiblich, $zimmerliste = $zimmer[]): int {
-$belegung = 1.0;
-$minBelegung = 1.0;
-while ($idx < 0) {
-    if ($weiblich = true) {
-
-    }
-
-    $idx++;
-    return $idx
+function dividiere($a, $b): float {
+    $summe = $a / $b;
+    return $summe;
 }
+function subtrahiere($a, $b): float {
+    $summe = $a - $b;
+    return $summe;
+}
+function addiere($a, $b): float {
+    $summe = $a + $b;
+    return $summe;
+}
+function multiplieziere($a, $b): float {
+    $summe = $a * $b;
+    return $summe;
 }
 
-// Testwerte
-$weiblich = true;
-
-sucheMinBelegung($weiblich);
-
+if ($auswahl == "addiere") {
+    echo "Die Summe ist: " . addiere($a, $b);
+} elseif ($auswahl == "subtrahiere") {
+    echo "Die Summe ist: " . subtrahiere($a, $b);
+} elseif ($auswahl == "multiplieziere") {
+    echo "Die Summe ist: " . multiplieziere($a, $b);
+} elseif ($auswahl == "dividiere") {
+    echo "Die Summe ist: " . dividiere($a, $b);
+} else {
+    echo "Fehler";
+}
 
 ?>
