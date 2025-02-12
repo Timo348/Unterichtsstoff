@@ -20,7 +20,7 @@
             text-align: center;
         }
         .gewinn{
-            margin: 12px 0;
+            margin: 1px;
             padding: 8px;
             background-color: darkgreen;
             color: white;
@@ -90,6 +90,7 @@
 
         .kleine-info{
             font-style: italic;
+            text-align: center;
         }
         .kopf-seite {
             justify-content: center;
@@ -102,27 +103,39 @@
         .info {
             margin: 30px;
         }
+        .info p{
+            display: flex;
+        }
+        .casino_bild {
+            border-radius: 25px;
+        }
     </style>
 </head>
 <body>
     <div class="kopf-seite">
         <div>
             <h1 class="ueberschrift">E DICER</h1><br>
-            <a class="wuerfeln" href="edicer-functions.php">Würfeln</a><br>
+            <a class="wuerfeln" href="edicer-4.php">Würfeln</a><br>
             <div class="info">
-                <p class="kleine_info">Die Ergebnisse werden sortiert wie folgt sortiert: Klein >> Groß</p>
+                <p class="kleine_info">Jeder Wurf kostet 1€</p>|
+                <p class="kleine_info">Die Ergebnisse werden sortiert wie folgt sortiert: Klein >> Groß</p><br>
                 <p class="kleine_info">powered by <a href="https://danielvici.de">Daniel</a></p>
+                <img class="casino_bild" src="..\bilder\casino.jpeg" alt="Casino" width="450" height="200">
             </div>
         </div>
     </div>
     <div class="board">
     <?php 
-
+    session_start();
     // require_once "filename.php" <- Um andere Dateien einzubinden
 
     $augen_array = [];
-
+    $einsatz = 1;
     $anzahl = 5;
+    if (!isset($_SESSION['kontostand'])){
+        $_SESSION['kontostand'] = 1000;
+    }
+    $gewin = 0;
     // Array füllen
     for ($i=1; $i<=$anzahl; $i++){
         $augen = rand(1,6);
@@ -148,24 +161,27 @@
     echo "</div>";
     echo "<div class='gewinn'>";
 
-    $auswertung = (auswerten($augen_array));
+    $auswertung = (auswerten($augen_array, $_SESSION['kontostand']));
+    $_SESSION['kontostand'] =+ $auswertung[1];
     echo "<p>$auswertung[0]</p>";
-    echo "<p>Ihr Gewinn beträgt $auswertung[1] €</p>";
+    echo "<p>Dein Gewinn ist $auswertung[1] €</p>";
     
+    echo "<p>Guthaben $_SESSION[kontostand] €</p>";
     
     echo "</div>";
 
 // GEWINN ERMITTELN
-    function  auswerten ($augen_arr){
+    function  auswerten ($augen_arr, $kontostand){
+        $kontostand  =- 1;
 
         $gewin_stufen = [
             0 => ["<h1>❌ KEIN GEWINN.❌</h1><br><h2>:( </h2>", 0],
             1 => ["<h1>2️⃣ ZWEIERPASCH :/ 🆗</h1>", 1],
             2 => ["<h1>2️⃣ DOPPEL ZWEIERPASCH </h1>", 2],
             3 => ["<h1>3️⃣ DREIERPASCH :) 🎉</h1>", 3], // 15%
-            4 => ["kleine straße", 5], // 14%
+            4 => ["<h1>🛣️Kleine Straße</h1>", 5], // 14%
             5 => ["<h1>3️⃣ FULL HOUSE :) 🎉</h1>", 10], // 4%
-            6 => ["große straße", 15], //3%
+            6 => ["<h1>🛣️Große Straße🛣️", 15], //3%
             7 => ["<h1>4️⃣ VIERERPASCH :) 🎉</h1>", 20], // 2%
             8 => ["<h1>🎉 KNIFFEL! :) 🎉</h1><br><h2>5️⃣</h2>", 100], // 0.1%
         ];
@@ -210,6 +226,7 @@
         else{
             return $gewin_stufen[0];
         }
+
     }
     ?>
 </body>
