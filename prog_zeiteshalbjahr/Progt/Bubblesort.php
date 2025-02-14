@@ -12,5 +12,8 @@ for ($a = 0; $a < count($array) -2; $a++) {
     }
 }
 print_r($array);
-
+print_r("Fortnite test");
+function test () : void {
+    echo "moin meister";
+}
 ?>
