@@ -23,23 +23,25 @@ void loop() {
   if (currentMillis - previousMillis >= interval) {
     previousMillis = currentMillis;
 
-    byte Daten2;
-    Wire.requestFrom(0b0100101, 1);
+    byte Daten2 = 0;
+    Wire.requestFrom(I2C_DIP, 1);
     if(Wire.available() >= 1) {
-      Daten2 = Wire.read(); // Daten Lesen
-      Serial.println(Daten2, HEX); // hex
+      Daten2 = Wire.read(); // Daten lesen
+      Serial.printf("Schalter: %02X\n", Daten2);
     }
 
     Wire.beginTransmission(0b0111010);
     Wire.write(Daten2);  // Datenbyte oder Registeradresse
     Wire.endTransmission();
 
-    Wire.requestFrom(0b0101111, 1);
-    if(Wire.available() >= 1) {
-      int temperatur = Wire.read();
-      Serial.println(temperatur);
-    } 
-      
+    Wire.requestFrom(0b1001111, 2);
+    if(Wire.available() >= 2) {
+      int8_t tempHigh = Wire.read();
+      byte tempLow = Wire.read();
+      int16_t rawTemp = (tempHigh << 1) | (tempLow >> 7);
+      float temperatur = rawTemp * 0.5;
+      Serial.printf("%.1f°C\n", temperatur);
     }
     }
+  }
 
