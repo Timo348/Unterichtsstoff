@@ -5,7 +5,6 @@ class Schueler {
     private string $nachname;
     private string $klasse;
 
-
 public function __construct(string $vn, string $nn, string $kl){
     $this->setVorname($vn);
     $this->setNachname($nn);

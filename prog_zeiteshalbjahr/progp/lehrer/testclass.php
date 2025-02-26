@@ -9,6 +9,7 @@
 <?php
 require_once "schueler.class.php";
 require_once "lehrer.class.php";
+require_once "person.class.php";
 
 // Lehrer Test
 echo "<h2>Lehrer Test</h2>";
@@ -37,6 +38,12 @@ if($s->versetzen()){
 else{
     echo "Schüler konnte nicht versetzt werden da er bereits in 2. Klasse ist";
 }
+
+
+// Person Test
+echo "<h2>Person Test</h2>";
+$p = new Person("Max", "Mustermann");
+$p->ausgeben();
 
 ?>
 </body>
