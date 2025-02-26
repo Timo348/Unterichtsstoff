@@ -43,7 +43,11 @@ class Lehrer {
         echo "<p>Gehaltsstufe: $this->gehaltsstufe </p><br>";
     }
     
+    public function befoerden():void{
+        $this->gehaltsstufe++;
+    }
+
 
 }
 
-?>
+?> 

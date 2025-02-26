@@ -9,8 +9,9 @@
 <?php
 
 require_once "lehrer.class.php";
-$l = new Lehrer("Hans", "Müller", 1);
+$l = new Lehrer("Michael", "Staudt", 13);
 $l->ausgeben();
+
 
 ?>
 </body>
