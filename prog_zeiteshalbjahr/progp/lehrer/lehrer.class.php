@@ -38,13 +38,17 @@ class Lehrer {
     } 
 
     public function ausgeben():void{
-        echo "<p>Lehrer: $this->vorname</p><br>";
-        echo "<p>Lehrer: $this->nachname</p><br>";
-        echo "<p>Gehaltsstufe: $this->gehaltsstufe </p><br>";
+        echo "<p>Lehrer: $this->vorname<br>";
+        echo "Lehrer: $this->nachname<br>";
+        echo "Gehaltsstufe: A$this->gehaltsstufe </p><br>";
     }
     
-    public function befoerden():void{
-        $this->gehaltsstufe++;
+    public function befoerden():bool{
+        if($this->gehaltsstufe < 16) {
+            $this->gehaltsstufe++;
+            return true;
+        }
+        return false;
     }
 
 
