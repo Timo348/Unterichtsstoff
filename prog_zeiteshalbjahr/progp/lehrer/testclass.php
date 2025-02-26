@@ -26,7 +26,7 @@ else{
 
 // Schüler Test
 echo "<h2>Schüler Test</h2>";
-$s = new Schueler("Max", "Mustermann", "2BKI11");
+$s = new Schueler("Max", "Mustermann", "2BKI1");
 $s->ausgeben();
 
 // Schüler versetzen

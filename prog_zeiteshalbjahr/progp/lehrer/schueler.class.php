@@ -44,8 +44,8 @@ public function ausgeben():void{
 }
 
 public function versetzen():bool{
-    if($this->klasse == "2BKI11") {
-        $this->klasse = "2BKI21";
+    if($this->klasse == "2BKI1") {
+        $this->klasse = "2BKI1";
         $this->klasse++;
         return true;
     }
