@@ -1,38 +1,37 @@
 <?php
-class Schueler extends Person{
+abstract class Person { //Dient nur zur Vererbung, kein Objekt erzeugbar
     //Attribute (Member)
-    private string $klasse;
+    protected string $vorname; //#  protected
+    protected string $nachname; // #  protected ; + public ; - private
 
     //spezieller (parametisierter) Konstruktor
-    public function __construct(string $vn, string $nn, string $kl){
-        parent::__construct($vn, $nn); //Aufruf des Elternkonstruktor
-        $this->setKlasse($kl);
+    public function __construct(string $vn, string $nn){
+        $this->setVorname($vn);
+        $this->setNachname($nn);
     }
 
-
     //settert
-    public function setKlasse(string $kl): void {
-        $this->klasse = $kl;
+    public function setVorname(string $vn): void {
+        $this->vorname = $vn;
+    }
+
+    public function setNachname(string $nn): void {
+        $this->nachname = $nn;
     }
 
     //Getter
-    public function getKlasse(): string {
-        return $this->klasse;
+    public function getVorname(): string {
+        return $this->vorname;
     }
 
+    public function getNachname(): string {
+        return $this->nachname;
+    }
 
-    //sonstige Funtionen
+    //Ausgabe
     public function ausgabe(): void {
-        parent::ausgabe();
-        echo "Klasse: $this->klasse </p>";
-    }
-
-    public function versetzen(): bool{
-        if($this->klasse == "2BKI1"){
-            $this->klasse = "2BKI2";
-            return true;
-        }
-        return false;
+        echo "<p>Vorname: $this->vorname <br>";
+        echo "Nachname: $this->nachname <br>";
     }
 }
 ?>
